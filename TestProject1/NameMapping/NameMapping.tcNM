@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{2A5EFC9F-24E7-4852-A746-A394E85748D5}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{141F706C-59EE-40C2-B7E2-2B094A593E82}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{907537F5-9A73-4CA6-8378-099BB77AF996}">
+								<Image FileName="-850916686" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageTestAutomationGridRunningIns" Key="{5D37FCA0-0392-47D4-9020-7E29A990E044}">
+								<Image FileName="-850916686" Left="0" Top="130" Right="1920" Bottom="1007" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.element34.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="navSeleniumboxSbox" Key="{653083E5-F4CA-4984-973B-5514033CBE76}">
+										<Image FileName="-850916686" Left="396" Top="154" Right="1837" Bottom="238" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;SeleniumBox/SBOX&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@role=&apos;navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;nav_menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkFeatures" Key="{46AECEC0-77EA-4C27-B10C-233BE2569C2D}">
+										<Image FileName="-850916686" Left="883" Top="154" Right="1028" Bottom="238" />
+										<TypeInfo Item0="{F57E4EAA-391A-469E-B5A8-1D28DD253522}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Features&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageTestAutomationGridRunningIns2" Key="{BB8D0D45-4CBD-4805-9B55-FF980CFB7B52}">
+								<Image FileName="-850916686" Left="0" Top="130" Right="1920" Bottom="1007" />
+								<TypeInfo Item0="{D4F49C67-CF0C-4D9B-A04E-CC1EC14F40A2}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.element34.com/seleniumbox/features*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelEnterpriseDeployment" Key="{6CECA36B-F876-4AFF-B6E0-E006C9C6C236}">
+										<Image FileName="809657787" Left="175" Top="337" Right="520" Bottom="373" />
+										<TypeInfo Item0="{F57E4EAA-391A-469E-B5A8-1D28DD253522}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;ENTERPRISE DEPLOYMENT&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/div[contains(@class, &apos;text-block&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkComprehensiveTesting" Key="{5686F2C3-8700-41A4-A696-760F50FFAD21}">
+										<Image FileName="292020109" Left="732" Top="782" Right="1162" Bottom="860" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;COMPREHENSIVE TESTING&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelComprehensiveTesting" Key="{4FCB9098-BB2C-4C1D-8C66-E41886D97248}">
+										<Image FileName="292020109" Left="776" Top="803" Right="1119" Bottom="839" />
+										<TypeInfo Item0="{F57E4EAA-391A-469E-B5A8-1D28DD253522}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;COMPREHENSIVE TESTING&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[2]/div[contains(@class, &apos;text-block&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[2]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAccessManagement" Key="{ACFEB24E-CF7E-4E0F-9971-B6908463CD2B}">
+										<Image FileName="1243244360" Left="1354" Top="662" Right="1740" Bottom="740" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;ACCESS MANAGEMENT&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAccessManagement" Key="{C2FFAB14-29FF-4E47-9785-FC8D6418566F}">
+										<Image FileName="1243244360" Left="1398" Top="683" Right="1697" Bottom="719" />
+										<TypeInfo Item0="{F57E4EAA-391A-469E-B5A8-1D28DD253522}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;ACCESS MANAGEMENT&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[3]/div[contains(@class, &apos;text-block&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[3]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navSeleniumboxSbox" Key="{15B6BE14-2C93-4077-86A1-3C14974EA86D}">
+										<Image FileName="1707003322" Left="396" Top="154" Right="1837" Bottom="238" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;SeleniumBox/SBOX&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@role=&apos;navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;nav_menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkBookADemo" Key="{5CC8E986-B539-4D9F-914F-082B77E41070}">
+										<Image FileName="1707003322" Left="1391" Top="160" Right="1611" Bottom="232" />
+										<TypeInfo Item0="{F57E4EAA-391A-469E-B5A8-1D28DD253522}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Book a Demo&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{141F706C-59EE-40C2-B7E2-2B094A593E82}">
+			<Child Name="BrowserWindow" Owner="{907537F5-9A73-4CA6-8378-099BB77AF996}" />
+			<Child Name="pageTestAutomationGridRunningIns" Owner="{5D37FCA0-0392-47D4-9020-7E29A990E044}">
+				<Child Name="navSeleniumboxSbox" Owner="{653083E5-F4CA-4984-973B-5514033CBE76}">
+					<Child Name="linkFeatures" Owner="{46AECEC0-77EA-4C27-B10C-233BE2569C2D}" />
+				</Child>
+			</Child>
+			<Child Name="pageTestAutomationGridRunningIns2" Owner="{BB8D0D45-4CBD-4805-9B55-FF980CFB7B52}">
+				<Child Name="panelEnterpriseDeployment" Owner="{6CECA36B-F876-4AFF-B6E0-E006C9C6C236}" />
+				<Child Name="linkComprehensiveTesting" Owner="{5686F2C3-8700-41A4-A696-760F50FFAD21}">
+					<Child Name="panelComprehensiveTesting" Owner="{4FCB9098-BB2C-4C1D-8C66-E41886D97248}" />
+				</Child>
+				<Child Name="linkAccessManagement" Owner="{ACFEB24E-CF7E-4E0F-9971-B6908463CD2B}">
+					<Child Name="panelAccessManagement" Owner="{C2FFAB14-29FF-4E47-9785-FC8D6418566F}" />
+				</Child>
+				<Child Name="navSeleniumboxSbox" Owner="{15B6BE14-2C93-4077-86A1-3C14974EA86D}">
+					<Child Name="linkBookADemo" Owner="{5CC8E986-B539-4D9F-914F-082B77E41070}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
